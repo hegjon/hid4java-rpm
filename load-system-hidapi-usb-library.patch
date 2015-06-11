@@ -1,0 +1,13 @@
+diff --git a/src/main/java/org/hid4java/jna/HidApiLibrary.java b/src/main/java/org/hid4java/jna/HidApiLibrary.java
+index 0aa3f8b..c3a109d 100644
+--- a/src/main/java/org/hid4java/jna/HidApiLibrary.java
++++ b/src/main/java/org/hid4java/jna/HidApiLibrary.java
+@@ -24,7 +24,7 @@ import com.sun.jna.WString;
+  */
+ public interface HidApiLibrary extends Library {
+ 
+-  HidApiLibrary INSTANCE = (HidApiLibrary) Native.loadLibrary("hidapi", HidApiLibrary.class);
++  HidApiLibrary INSTANCE = (HidApiLibrary) Native.loadLibrary("hidapi-libusb", HidApiLibrary.class);
+ 
+   /**
+    * <p>Initialize the HIDAPI library.</p>
