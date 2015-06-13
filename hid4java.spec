@@ -1,7 +1,7 @@
 Name: hid4java
 Version: 0.3.1
 Release: 1%{?dist}
-Summary: A cross-platform Java Native Access (JNA) wrapper for the signal11/hidapi library
+Summary: Java wrapper for the hidapi library
 
 Group: System Environment/Libraries
 License: MIT
@@ -17,11 +17,10 @@ Requires: java-headless >= 1:1.6.0
 Requires: libhid
 
 %description
-The hid4java project supports USB HID devices through a common API which is
-provided here under the MIT license. The API is very simple but provides great 
-flexibility such as support for feature reports and blocking reads with 
-timeouts. Attach/detach events are provided to allow applications to respond 
-instantly to device availability.
+hid4java supports USB HID devices through a common API. The API is very simple
+but provides great flexibility such as support for feature reports and blocking
+reads with timeouts. Attach/detach events are provided to allow applications to
+respond instantly to device availability.
 
 
 %package javadoc
