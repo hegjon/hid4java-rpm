@@ -13,7 +13,6 @@ BuildArch: noarch
 BuildRequires: maven-local
 BuildRequires: mvn(net.java.dev.jna:jna)
 
-Requires: java-headless >= 1:1.6.0
 Requires: libhidapi-libusb.so.0
 
 %description
