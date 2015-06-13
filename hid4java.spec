@@ -43,7 +43,6 @@ find -name '*.dll' -print -delete
 %mvn_install
 
 %files -f .mfiles
-%dir %{_javadir}/%{name}
 %doc AUTHORS README.md
 %license LICENSE
 
