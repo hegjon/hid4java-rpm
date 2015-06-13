@@ -14,7 +14,7 @@ BuildRequires: maven-local
 BuildRequires: mvn(net.java.dev.jna:jna)
 
 Requires: java-headless >= 1:1.6.0
-Requires: libhid
+Requires: libhidapi-libusb.so.0
 
 %description
 hid4java supports USB HID devices through a common API. The API is very simple
