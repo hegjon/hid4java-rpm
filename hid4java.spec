@@ -3,7 +3,6 @@ Version: 0.3.1
 Release: 1%{?dist}
 Summary: Java wrapper for the hidapi library
 
-Group: System Environment/Libraries
 License: MIT
 URL: http://github.com/gary-rowe/hid4java
 Source0: https://github.com/gary-rowe/%{name}/archive/%{version}.tar.gz
