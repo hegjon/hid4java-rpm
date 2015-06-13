@@ -46,10 +46,12 @@ find -name '*.dll' -print -delete
 
 %files -f .mfiles
 %dir %{_javadir}/%{name}
-%doc AUTHORS LICENSE README.md
+%doc AUTHORS README.md
+%license LICENSE
 
 %files javadoc -f .mfiles-javadoc
-%doc AUTHORS LICENSE README.md
+%doc AUTHORS README.md
+%license LICENSE
 
 %changelog
 * Wed Jun 10 2015 Jonny Heggheim <hegjon@gmail.com> - 0.3.1-1
