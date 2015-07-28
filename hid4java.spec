@@ -1,11 +1,14 @@
+#Not released yet
+%define revision 1e9ef8066326a858e6158b5131ef8e5d6af64d53
+
 Name: hid4java
-Version: 0.3.1
-Release: 1%{?dist}
+Version: 0.4.0
+Release: 0.1%{?dist}
 Summary: Java wrapper for the hidapi library
 
 License: MIT
 URL: http://github.com/gary-rowe/hid4java
-Source0: https://github.com/gary-rowe/%{name}/archive/%{version}.tar.gz
+Source0: https://github.com/gary-rowe/%{name}/archive/%{revision}.tar.gz
 Patch0: load-system-hidapi-usb-library.patch
 BuildArch: noarch
 
@@ -28,7 +31,7 @@ Summary: Javadoc for %{name}
 This package contains the API documentation for %{name}.
 
 %prep
-%setup -q
+%setup -q -n hid4java-%{revision}
 
 %patch0 -p1
 
@@ -51,5 +54,5 @@ find -name '*.dll' -print -delete
 %license LICENSE
 
 %changelog
-* Wed Jun 10 2015 Jonny Heggheim <hegjon@gmail.com> - 0.3.1-1
+* Tue Jul 28 2015 Jonny Heggheim <hegjon@gmail.com> - 0.4.0-0.1
 - Inital packaging
