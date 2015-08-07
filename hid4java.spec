@@ -1,10 +1,10 @@
 #Not released yet
 %global revision b010ceedec1c773eb748c23f9ae9729831ad91a8
-%global short_revision b010cee
+%global short_sha b010cee
 
 Name: hid4java
 Version: 0.4.0
-Release: 0.1.git%{short_revision}%{?dist}
+Release: 0.1.git%{short_sha}%{?dist}
 Summary: Java wrapper for the hidapi library
 
 License: MIT
