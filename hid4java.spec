@@ -55,5 +55,5 @@ find -name '*.dll' -print -delete
 %license LICENSE
 
 %changelog
-* Aug 07 2015 Jonny Heggheim <hegjon@gmail.com> - 0.4.0-0.1.gitb010cee
+* Fri Aug 07 2015 Jonny Heggheim <hegjon@gmail.com> - 0.4.0-0.1.gitb010cee
 - Inital packaging
