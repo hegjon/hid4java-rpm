@@ -1,6 +1,6 @@
 #Not released yet
-%define revision 1e9ef8066326a858e6158b5131ef8e5d6af64d53
-%define short_revision 1e9ef80
+%global revision 1e9ef8066326a858e6158b5131ef8e5d6af64d53
+%global short_revision 1e9ef80
 
 Name: hid4java
 Version: 0.4.0
