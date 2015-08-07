@@ -1,9 +1,10 @@
 #Not released yet
 %define revision 1e9ef8066326a858e6158b5131ef8e5d6af64d53
+%define short_revision 1e9ef80
 
 Name: hid4java
 Version: 0.4.0
-Release: 0.1%{?dist}
+Release: 0.1.git%{short_revision}%{?dist}
 Summary: Java wrapper for the hidapi library
 
 License: MIT
@@ -54,5 +55,5 @@ find -name '*.dll' -print -delete
 %license LICENSE
 
 %changelog
-* Tue Jul 28 2015 Jonny Heggheim <hegjon@gmail.com> - 0.4.0-0.1
+* Aug 07 2015 Jonny Heggheim <hegjon@gmail.com> - 0.4.0-0.1.git1e9ef80
 - Inital packaging
