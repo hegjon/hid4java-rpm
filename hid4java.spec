@@ -1,6 +1,6 @@
 #Not released yet
-%global revision 1e9ef8066326a858e6158b5131ef8e5d6af64d53
-%global short_revision 1e9ef80
+%global revision b010ceedec1c773eb748c23f9ae9729831ad91a8
+%global short_revision b010cee
 
 Name: hid4java
 Version: 0.4.0
@@ -55,5 +55,5 @@ find -name '*.dll' -print -delete
 %license LICENSE
 
 %changelog
-* Aug 07 2015 Jonny Heggheim <hegjon@gmail.com> - 0.4.0-0.1.git1e9ef80
+* Aug 07 2015 Jonny Heggheim <hegjon@gmail.com> - 0.4.0-0.1.gitb010cee
 - Inital packaging
